@@ -1,0 +1,55 @@
+.navbar-item img {
+  max-height: 3rem;
+}
+.hero {
+  .hero-body {
+    // background: url(/assets/images/main-hero.png) top center no-repeat;
+    background-size: contain;
+  }
+  .hero-carousel {
+    .slider-container{
+        height: 100%;
+    }
+
+    .carousel-item {
+      width: 100%;
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+      display: block;
+      height: 100%;
+    }
+  }
+
+}
+
+.game-box {
+  .game-type {
+    color: #f4404c !important;
+    fill: #f4404c !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .game-title {
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+  .game-icon {
+    border-radius: 1.5rem;
+    width: 150px;
+    background-color: white;
+  }
+  .game-download {
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+  a {
+    &.disabled {
+      filter: grayscale(1);
+    }
+  }
+  max-width: 350px;
+  min-height: 350px;
+  background-color: rgb(248, 247, 247);
+}
